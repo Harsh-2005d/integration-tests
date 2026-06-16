@@ -39,6 +39,13 @@ arches:
     name: kernel-headers
     evr: 6.12.0-211.22.1.el10_2
     sourcerpm: kernel-6.12.0-211.22.1.el10_2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/os/Packages/l/libffi-devel-3.4.4-10.el10.x86_64.rpm
+    repoid: ubi-10-appstream-rpms
+    size: 29841
+    checksum: sha256:1adc20d5289e871e92d6e5b3660bc2ca1dc4325fa2077fa3796395db01c3bd8a
+    name: libffi-devel
+    evr: 3.4.4-10.el10
+    sourcerpm: libffi-3.4.4-10.el10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/os/Packages/l/libmpc-1.3.1-7.el10.x86_64.rpm
     repoid: ubi-10-appstream-rpms
     size: 75330
@@ -67,6 +74,13 @@ arches:
     name: llvm-libs
     evr: 21.1.8-1.el10
     sourcerpm: llvm-21.1.8-1.el10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/os/Packages/o/openssl-devel-3.5.5-4.el10_2.x86_64.rpm
+    repoid: ubi-10-appstream-rpms
+    size: 4405852
+    checksum: sha256:fc196a4a2f690b0132754ec06d8b5b20f604d9966a622e738153c1dbfa3a43da
+    name: openssl-devel
+    evr: 1:3.5.5-4.el10_2
+    sourcerpm: openssl-3.5.5-4.el10_2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/os/Packages/p/python3-devel-3.12.13-2.el10_2.x86_64.rpm
     repoid: ubi-10-appstream-rpms
     size: 344493
@@ -144,6 +158,13 @@ arches:
     name: make
     evr: 1:4.4.1-9.el10
     sourcerpm: make-4.4.1-9.el10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/baseos/os/Packages/o/openssl-libs-3.5.5-4.el10_2.x86_64.rpm
+    repoid: ubi-10-baseos-rpms
+    size: 2372448
+    checksum: sha256:ddb70c0189e80a5accff9cf326a1d9d31e8a92b0ec6b53e0d6ba0feb5587e5d8
+    name: openssl-libs
+    evr: 1:3.5.5-4.el10_2
+    sourcerpm: openssl-3.5.5-4.el10_2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/baseos/os/Packages/p/pkgconf-2.1.0-3.el10.x86_64.rpm
     repoid: ubi-10-baseos-rpms
     size: 49544

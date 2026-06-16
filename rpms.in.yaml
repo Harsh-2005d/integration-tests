@@ -11,7 +11,7 @@ packages:
   - python3-pip
   - python3-setuptools
   - python3-devel
-  # rfc3161-client extra build dependencies
-  
+  - libffi-devel
+  - openssl-devel
 
 installWeakDeps: false
