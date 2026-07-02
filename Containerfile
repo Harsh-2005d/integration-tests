@@ -11,12 +11,7 @@ RUN dnf -y install \
     python3-devel \
     libffi-devel \
     openssl-devel \
-    perl-interpreter \
-    perl-FindBin \
-    perl-lib \
-    perl-IPC-Cmd \
-    perl-File-Compare \
-    perl-File-Copy
+    
 
 WORKDIR /src
 
